@@ -1,0 +1,15 @@
+Steel Industry Energy Consumption Prediction App
+
+This project is a Streamlit application that predicts the energy consumption load type (Light, Medium, Maximum) for the steel industry. The app allows users to upload a dataset, preprocess the data, train a neural network model, and make predictions.
+
+🚀 Features
+
+Upload a CSV dataset for training.
+
+Data preprocessing including label encoding and standard scaling.
+
+Neural network model training with TensorFlow and Keras.
+
+Predict energy consumption load types based on user input.
+
+Interactive UI using Streamlit.
