@@ -24,11 +24,17 @@ This project is a Streamlit application that predicts the energy consumption loa
 │── sample_data.csv        
 
 🛠️ Requirements
+
 Python 3.x
+
 Streamlit
+
 pandas
+
 numpy
+
 scikit-learn
+
 TensorFlow
 
 🧠 Model Training
