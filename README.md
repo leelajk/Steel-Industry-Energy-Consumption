@@ -12,10 +12,10 @@ This project is a Streamlit application that predicts the energy consumption loa
 
 📁 Project Structure
 📦 Steel-Industry-Energy-Prediction
-│── app.py                 # Main Streamlit app
-│── requirements.txt       # Python dependencies
-│── README.md              # Project documentation
-│── sample_data.csv        # Example dataset
+│── app.py                  
+│── requirements.txt       
+│── README.md             
+│── sample_data.csv        
 
 🛠️ Requirements
 Python 3.x
