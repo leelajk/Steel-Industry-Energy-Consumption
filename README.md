@@ -11,6 +11,7 @@ This project is a Streamlit application that predicts the energy consumption loa
 5.Interactive UI using Streamlit.
 
 📁 Project Structure
+
 📦 Steel-Industry-Energy-Prediction
 
 │── app.py                  
