@@ -5,9 +5,13 @@ This project is a Streamlit application that predicts the energy consumption loa
 🚀 Features
 
 1.Upload a CSV dataset for training.
+
 2.Data preprocessing including label encoding and standard scaling.
+
 3.Neural network model training with TensorFlow and Keras.
+
 4.Predict energy consumption load types based on user input.
+
 5.Interactive UI using Streamlit.
 
 📁 Project Structure
