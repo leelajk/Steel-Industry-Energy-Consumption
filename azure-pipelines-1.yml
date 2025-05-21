@@ -1,0 +1,24 @@
+trigger:
+- main
+
+pool:
+  vmImage: ubuntu-latest
+
+stages:
+- stage: Build
+  displayName: 'Build Stage'
+  jobs:
+  - job: BuildJob
+    displayName: 'Compile and Prepare for Regression Testing'
+    steps:
+    - script: echo "Building the project..."
+      displayName: 'Run Build Script'
+
+    - script: |
+        echo "Installing dependencies..."
+        echo " Build logic goes here (e.g., npm install, pip install -r requirements.txt, etc.)"
+      displayName: 'Install Dependencies & Prepare Build'
+
+    - script: |
+        echo " Build complete. Ready for regression testing stage."
+      displayName: 'Post-Build Message'
