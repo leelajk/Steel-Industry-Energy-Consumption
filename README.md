@@ -1,42 +1,40 @@
 Steel Industry Energy Consumption Prediction App
+⚡ Predict energy load types (Light, Medium, Maximum) for steel plants using AI
 
-This project is a Streamlit application that predicts the energy consumption load type (Light, Medium, Maximum) for the steel industry. The app allows users to upload a dataset, preprocess the data, train a neural network model, and make predictions.
+This Streamlit app helps steel industry professionals forecast energy consumption patterns by training a neural network on historical data. Just upload your dataset, preprocess it, and get predictions in minutes!
 
+Features
+1) Simple CSV Upload – Drop your dataset (like sample_data.csv) and get started
+2) Auto Preprocessing – Handles encoding & scaling so you don’t have to
+3) Neural Network Model – 3 hidden layers with dropout to prevent overfitting
+4) Interactive UI – Clean, user-friendly interface powered by Streamlit
 
+How It Works
+Upload Data – Provide a CSV with energy consumption metrics
 
-1.Upload a CSV dataset for training.
+Preprocess – The app encodes labels and scales features automatically
 
-2.Data preprocessing including label encoding and standard scaling.
+Train Model – A TensorFlow/Keras neural network learns patterns in your data
 
-3.Neural network model training with TensorFlow and Keras.
-
-4.Predict energy consumption load types based on user input.
-
-5.Interactive UI using Streamlit.
+Predict – Input new data points and classify load type (Light/Medium/Max)
 
 Project Structure
+bash
+Steel-Industry-Energy-Prediction/  
+├── app.py                
+├── requirements.txt     
+├── README.md             
+└── sample_data.csv      
 
-Steel-Industry-Energy-Prediction
+Setup
+Install dependencies:
 
-│── app.py                  
-│── requirements.txt       
-│── README.md             
-│── sample_data.csv        
+bash
+pip install -r requirements.txt
+Run the app:
 
-Requirements
+bash
+streamlit run app.py
 
-1) Python 3.x
 
-2) Streamlit
 
-3) pandas
-
-4) numpy
-
-5) scikit-learn
-
-TensorFlow
-
-Model Training
-The neural network model has 3 hidden layers with dropout regularization.
-The output layer uses softmax activation for multi-class classification.
