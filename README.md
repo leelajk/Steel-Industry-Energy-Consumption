@@ -1,5 +1,5 @@
 Steel Industry Energy Consumption Prediction App
-⚡ Predict energy load types (Light, Medium, Maximum) for steel plants using AI
+Predict energy load types (Light, Medium, Maximum) for steel plants using AI
 
 This Streamlit app helps steel industry professionals forecast energy consumption patterns by training a neural network on historical data. Just upload your dataset, preprocess it, and get predictions in minutes!
 
